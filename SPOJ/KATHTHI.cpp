@@ -49,7 +49,7 @@ void modified_bfs(int r, int c){
             dist[i][j] = INF ;
 		}
  
-    dist[0][0] = 0 ;
+    	dist[0][0] = 0 ;
  
 	while(!dq.empty()){
  
