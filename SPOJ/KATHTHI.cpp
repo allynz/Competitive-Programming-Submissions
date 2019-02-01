@@ -1,7 +1,7 @@
 // KATHTHI
 // https://www.spoj.com/problems/KATHTHI/
 // 0-1 BFS
-// this took such a long time. give optimized solution and don't do recursion too much, prune it as early as you can.
+// this took such a long time even though solution was correct because of TLE. give optimized solution and don't do recursion too much, prune it as early as you can.
  
 #include<bits/stdc++.h>
  
