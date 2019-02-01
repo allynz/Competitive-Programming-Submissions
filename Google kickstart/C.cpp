@@ -19,9 +19,9 @@ void preprocess(){
 	for(int i = 2 ; i < 1000005 ; i++){
 		pow2[i] = (2LL * pow2[i-1]) % m ;
 		fact[i] = ((ll)fact[i-1] * i) % m ;
-    	inv[i] = (m - (m/i) * (ll)inv[m%i] % m) % m ;
-    	invfact[i] = ((ll)invfact[i-1]*inv[i]) % m ;
-    }
+    		inv[i] = (m - (m/i) * (ll)inv[m%i] % m) % m ;
+    		invfact[i] = ((ll)invfact[i-1]*inv[i]) % m ;
+	}
 
 }
 
