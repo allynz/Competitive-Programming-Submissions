@@ -16,6 +16,7 @@ char s[1005][1005] ;
 int dist[1005][1005] ;
 bool color[1005][1005] ;
  
+// for fast io , stdio(0) trick could also work here
 template<class T>inline bool read(T &x) {
     int c=getchar();
     int sgn=1;
