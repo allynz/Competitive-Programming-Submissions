@@ -51,10 +51,10 @@ void solve(int test_case){
 
 	for(int i = 0 ; i < n ; i++){
 		if(mark[i]){
-		    mat[i][i] = 1 ;
-    		for(int j = 0 ; j < dominates[i].size() && !dominates[i].empty() ; j++){
-    			mat[i][dominates[i][j]] = 1 ;
-    		}
+			mat[i][i] = 1 ;
+			for(int j = 0 ; j < dominates[i].size() && !dominates[i].empty() ; j++){
+				mat[i][dominates[i][j]] = 1 ;
+			}
 		}
 	}
 
