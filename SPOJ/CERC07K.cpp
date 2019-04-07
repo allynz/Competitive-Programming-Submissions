@@ -155,6 +155,7 @@ void solve(){
 
     if(st_x < 0 || st_y < 0){
         cout << "The poor student is trapped!\n" ;
+        return ;
     }
 
     int ans = bfs(st_x, st_y) ;
